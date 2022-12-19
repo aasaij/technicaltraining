@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+
+int main(){
+   
+ for (int r = 1; r<=10; r++){
+     
+   for (int c=1; c<=10; c++){
+        
+    if (c % 3 == 0)
+              
+  goto exit;
+    
+        printf("%d", c);
+      
+  }    
+
+    }
+   
+ exit: //label
+    
+  
+  return 0;
+
+}
